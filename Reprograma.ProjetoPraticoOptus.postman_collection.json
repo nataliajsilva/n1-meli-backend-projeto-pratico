@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "42adaf32-d62c-4730-8693-e84711096f71",
+		"name": "Reprograma.ProjetoPraticoOptus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Optus",
+			"item": [
+				{
+					"name": "Optus.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/optus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"optus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Optus.BuscarPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/optus/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"optus",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Optus.BuscarPorGenero",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/optus/genero/Comédia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"optus",
+								"genero",
+								"Comédia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Optus.FiltrarPorDuracao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/optus/Duracao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"optus",
+								"Duracao"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

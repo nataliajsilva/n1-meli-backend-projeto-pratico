@@ -87,6 +87,48 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Tarefas.ListarPorDiferencaDias",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/tarefas/dias/filtrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"tarefas",
+								"dias",
+								"filtrar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tarefas.FiltrarPorDataTarefa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/tarefas/data/filtrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"tarefas",
+								"data",
+								"filtrar"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"protocolProfileBehavior": {}
